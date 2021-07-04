@@ -1,0 +1,47 @@
+.marg{
+    margin:3% ;
+}
+
+
+@media screen and (min-width:768px){
+
+.border{
+    width: 32%;
+}
+
+.marg-right{
+    margin-right: 0%;
+}
+
+.nav-item{
+    visibility: hidden;
+}
+
+.nowrap{
+    position: relative;
+    left: 1.3%;
+}
+
+}
+@media screen and (min-width:576px) and (max-width:767px){
+   
+.nowrap{
+    position: relative;
+    left: 4.3%;
+}
+
+.nav-item{
+    visibility: hidden;
+}
+
+.a , .b{
+    width: 45%;
+}
+}
+
+@media screen and (max-width:575px){
+    .border{
+      width: 95%;
+      margin-left: 2.3%;
+    }
+}
